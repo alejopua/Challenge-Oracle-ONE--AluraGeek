@@ -1,0 +1,32 @@
+:root {
+  --font-family-first: 'Quicksand', sans-serif;
+  --font-family-second: 'REM', sans-serif;
+
+  --font-input: 300;
+
+  --font-size-logo: 28px;
+  --font-size-slider: 35px;
+  --font-size-card-title: 28px;
+  --font-size-input-label: 20px;
+  --font-size-button: 22px;
+  --font-size-form-fieldset: 22px;
+  --font-size-table-header: 18px;
+  --font-size-modal-title: 28px;
+  --font-size-modal-button: 28px;
+
+  --primary-color: #297ae4;
+  --secundary-color: #d6eaff;
+  --contrast-dark-color: #4d4d4d;
+  --contrast-ligth-color: #fff;
+  --info-color: #df2525;
+  --sucess-color: #047900;
+  --transparency-color: #4d4d4d33;
+
+  --shadow: 0 5px 10px #55a6ff38;
+}
+
+@media (min-width: 800px) {
+  :root {
+    --font-size-logo: 56px;
+  }
+}

@@ -1,0 +1,124 @@
+{
+    "products": [
+        {
+            "id": "909c0f38-45e5-4245-af26-3eb6af37fb10",
+            "name": "Shoes",
+            "imageUrl": "https://picsum.photos/200/300",
+            "price": "1000"
+        },
+        {
+            "id": "d4a6ecdd-0c75-4e5b-b27d-8c971ff35001",
+            "name": "T-shirt",
+            "imageUrl": "https://picsum.photos/200/300",
+            "price": "250"
+        },
+        {
+            "id": "e6542a05-9dd3-4e0f-a6c6-cb15b7a13d75",
+            "name": "Jeans",
+            "imageUrl": "https://picsum.photos/200/300",
+            "price": "800"
+        },
+        {
+            "id": "a88b541f-4927-48d3-a69c-7b3d7b6e37cd",
+            "name": "Sweater",
+            "imageUrl": "https://picsum.photos/200/300",
+            "price": "450"
+        },
+        {
+            "id": "f3d3ef47-0e9b-441e-b6fe-e103aa3b13c2",
+            "name": "Hat",
+            "imageUrl": "https://picsum.photos/200/300",
+            "price": "150"
+        },
+        {
+            "id": "b6e5cbfb-035a-4dbf-a96b-01c7dbb95c6c",
+            "name": "Jacket",
+            "imageUrl": "https://picsum.photos/200/300",
+            "price": "1200"
+        },
+        {
+            "id": "d1b6f57a-08e3-4e50-8cb1-92545c6f5b58",
+            "name": "Skirt",
+            "imageUrl": "https://picsum.photos/200/300",
+            "price": "350"
+        },
+        {
+            "id": "4ebd44f1-4816-4c95-9751-48e0806e89ee",
+            "name": "Socks",
+            "imageUrl": "https://picsum.photos/200/300",
+            "price": "50"
+        },
+        {
+            "id": "c013363f-1a0d-439e-a81c-27186eeb77c3",
+            "name": "Belt",
+            "imageUrl": "https://picsum.photos/200/300",
+            "price": "80"
+        },
+        {
+            "id": "f58784d9-6ff1-4c7a-9445-7e16a6ee8d98",
+            "name": "Sunglasses",
+            "imageUrl": "https://picsum.photos/200/300",
+            "price": "200"
+        },
+        {
+            "id": "872d1f69-cb15-43f9-96c6-df5b02eef04a",
+            "name": "Backpack",
+            "imageUrl": "https://picsum.photos/200/300",
+            "price": "600"
+        },
+        {
+            "id": "5e0ce193-57b7-4ec4-b1a5-21735cb6b13a",
+            "name": "Gloves",
+            "imageUrl": "https://picsum.photos/200/300",
+            "price": "70"
+        },
+        {
+            "id": "8fca4c97-17c5-4f67-81eb-5d6b012c248e",
+            "name": "Scarf",
+            "imageUrl": "https://picsum.photos/200/300",
+            "price": "90"
+        },
+        {
+            "id": "1da7948b-6c75-4a1a-bb0d-1db7d13c1a5f",
+            "name": "Earrings",
+            "imageUrl": "https://picsum.photos/200/300",
+            "price": "180"
+        },
+        {
+            "id": "3a495b46-789e-421c-bbc2-8c4e4ad0c2b1",
+            "name": "Necklace",
+            "imageUrl": "https://picsum.photos/200/300",
+            "price": "210"
+        },
+        {
+            "id": "d6b374f7-5c82-48c3-9b8c-d3d89c03652e",
+            "name": "Watch",
+            "imageUrl": "https://picsum.photos/200/300",
+            "price": "350"
+        },
+        {
+            "id": "1e6188b5-c73f-4d59-870b-88481ff4a01e",
+            "name": "Sweatpants",
+            "imageUrl": "https://picsum.photos/200/300",
+            "price": "300"
+        },
+        {
+            "id": "a2e3efb3-8393-42ce-af33-cbda5c26cda9",
+            "name": "Dress",
+            "imageUrl": "https://picsum.photos/200/300",
+            "price": "700"
+        },
+        {
+            "id": "671a2e82-5fcf-44de-8d72-89fc7a178ce5",
+            "name": "Sneakers",
+            "imageUrl": "https://picsum.photos/200/300",
+            "price": "950"
+        },
+        {
+            "id": "be41ee9a-88ce-476f-96b6-0b0d8839d134",
+            "name": "Purse",
+            "imageUrl": "https://picsum.photos/200/300",
+            "price": "400"
+        }
+    ]
+}

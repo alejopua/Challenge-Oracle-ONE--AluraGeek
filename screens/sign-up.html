@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek(Sign Up)</title>
+    <!-- estilos -->
+    <link rel="stylesheet" href="../assets/css/base/base.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/components/btnGoback.css">
+    <link rel="stylesheet" href="../assets/css/sign-up/sign-up.css">
+    <link rel="stylesheet" href="../assets/css/sign-up/components/form.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="../assets/img/Logo.png" alt="Logo de la empresa">
+        </div>
+        <a href="../screens/index.html">
+            <button class="__signUp" data-signUp>
+                <div class="arrow-wrapper">
+                    <div class="arrow"></div>
+                </div>
+                Go Back
+            </button>
+        </a>
+    </header>
+
+    <main class="main">
+        <section class="__signIn">
+            <form class="form">
+                <p class="form-title">Sign in to your account</p>
+                <div class="input-container">
+                    <input type="text" placeholder="Enter username" data-username>
+                </div>
+                <div class="input-container">
+                    <input type="password" placeholder="Enter password" data-password>
+                </div>
+                <div class="alert-container" data-error>
+                    <p class="alert-message">The username or password is incorrect</p>
+                </div>
+                <button type="click" class="submit" data-submit>
+                Sign in
+                </button>
+            </form>
+        </section>
+    </main>
+    <script type="module" src="../controllers/signUp.js"></script>
+</body>
+</html>

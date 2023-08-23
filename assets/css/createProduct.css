@@ -1,0 +1,190 @@
+@import url(variables.css);
+
+.header {
+    width: -webkit-fill-available;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    margin: 20px 20px 0 20px;
+    padding: 8px 18px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__content-info {
+    background: white;
+    color: black;
+    font-family: var(--font-family-first);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    height: 38px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid #297ae4;
+}
+
+.main {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: -webkit-fill-available;
+    height: 100%;
+    gap: 20px 0px;
+}
+
+.main__create-product {
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    border-radius: 10px;
+    width: 100%;
+    height: 40vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.submit {
+    --primary-color: #297ae4;
+    --secondary-color: #fff;
+    --hover-color: #111;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    font-family: var(--font-family-second);
+    height: 42px;
+    border-radius: 5px;
+    color: var(--secondary-color);
+    padding: 1em 1.8em;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: bold;
+}
+
+.submit:hover {
+    background-color: var(--hover-color);
+}
+
+.main__delete-product {
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    border-radius: 10px;
+    width: 100%;
+    height: 40vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.--title {
+    background: #edede9;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-family: var(--font-family-first);
+    font-weight: bold;
+    width: 100%;
+    text-align: start;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.main__create-product--form {
+    width: 100%;
+}
+
+input {
+    box-sizing: border-box;
+}
+
+.--form__input {
+position: relative;
+}
+
+.--form__input input, .form button {
+outline: none;
+border: 1px solid #e5e7eb;
+margin: 8px 0;
+}
+
+.--form__input input {
+background-color: #fff;
+padding: 1rem;
+padding-right: 3rem;
+font-size: 0.875rem;
+line-height: 1.25rem;
+width: 100%;
+border-radius: 0.5rem;
+box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.submit {
+display: block;
+padding-top: 0.75rem;
+padding-bottom: 0.75rem;
+padding-left: 1.25rem;
+padding-right: 1.25rem;
+background-color: #4F46E5;
+color: #ffffff;
+font-size: 0.875rem;
+line-height: 1.25rem;
+font-weight: 500;
+width: 100%;
+border-radius: 0.5rem;
+text-transform: uppercase;
+}
+
+/* delete producto */
+
+.tHead {
+    display: flex;
+    width: 100%;
+    font-size: var(--font-size-table-header);
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--secundary-color);
+}
+
+.--content_tbody {
+    width: 100%;
+    overflow: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: initial;
+    text-align: left;
+}
+
+.table__column--1 {
+    width: 70%;
+}
+
+.table__column--2 {
+    width: 20%;
+}
+
+.table__column--3 {
+    width: 10%;
+}
+
+td {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.simple-button--delete {
+    cursor: pointer;
+    color: var(--info-color);
+}

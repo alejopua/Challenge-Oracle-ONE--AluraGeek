@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="../assets/css/base/base.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/slider.css">
+    <link rel="stylesheet" href="../assets/css/content.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/components/search-bar.css">
+    <link rel="stylesheet" href="../assets/css/components/login.css">
+    <link rel="stylesheet" href="../assets/css/components/card.css">
+    <link rel="stylesheet" href="../assets/css/components/newsletter-form.css">
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=REM:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="../assets/img/Logo.png" alt="Logo de la empresa">
+        </div>
+        <div class="search-bar">
+            <input placeholder="Buscar ..." type="text" name="text" class="input">
+        </div>
+        <a href="../screens/sign-up.html">
+            <button class="__signUp" data-signUp>
+                Sign up
+                <div class="arrow-wrapper">
+                    <div class="arrow"></div>
+                </div>
+            </button>
+        </a>
+    </header>
+
+    <section class="main__slider">
+        <div class="s-wrap s-type-2" role="slider">
+            <ul class="s-content">
+                <li class="s-item s-item-1"></li>
+                <li class="s-item s-item-2"></li>
+                <li class="s-item s-item-3"></li>
+                <li class="s-item s-item-4"></li>
+                <li class="s-item s-item-5"></li>
+            </ul>
+
+            <div class="slider__content--second">
+            </div>
+
+            <p class="slider__text">Black friday sale</p>
+            <button class="slider__button">
+                Ver articulo
+                <div class="arrow-wrapper">
+                    <div class="arrow"></div>
+                </div>
+            </button>
+        </div>
+    </section>
+
+    <section class="main">
+        <div class="main__box">
+            <div class="main--header">
+                <p class="main__content--title">Popular right now</p>
+            </div>
+            <div class="main--containerCards" data-contentCard>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+
+        <div class="footer__data">
+            <div class="logo">
+                <img src="../assets/img/Logo.png" alt="Logo de la empresa">
+            </div>
+            
+            <div class="footer__social">
+
+                <a href="#">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAA1NJREFUWEe9mL2qFEEQhb96DjEQMdDAQDB29w38wUB8DkFE3F1ERHwMjZQr+AS7xmKoRgoG4mO01HRPT/9Uz/Qo2rCwd7an+lTVqVPVV8iWAC5/9J//UgTdax7uWmf8/vKtVYC6kYeNLYjm8/BQqDCuPXbc3xmhhW0+Qumm+Rc2gH6mZb6bGTkB+ulaZsqiOf9lD9xA2MzzXYPtQk0UXk0GD+DUXnPVKcttHdOI9JO6CUg9PIA6WVvTJzFCxmHqya6IVlfYc1aZbpxAtlNEcwZUNPIesFt1+orNAeI241ZWZTH30aqpjp11VELTg7UQbhQFoUTX38oaMY/5S7mONv2hnu8bhxyLTlAVVSx7H6TBkHqjZLZSWT7UA5Wkuk4I+1CJY7rTKFg0yNMWSZ1riRrdLQjmSeDg2vqiTimoUbMUmP+en7UVx2kIRKCNVWU2oSdDqdcXEa6L40pQoC/AR+B7iFomGwbvgwRMgbeE0QCUil6Uiqsge8TdSgVT4MwhO3CfBeXNlP4KkHAIwht/snrZXmBX9+Eh2gfnQVzA8RK4Y1SJcvEtuAfAj8DHvN1ML2URGjOa2BzykkWoqMHRwF3gzSzxPdh3IBtwR7Pl+YLwrSTToTzme3EaIXONKX6SVFdLEh8DzwKZY9UWm60IeWhJiwhVZp4zlqke9rSStOjYwLlH4njutLqEY6MxL6VsOKLZNgS2odRvA2et0ITnN4H3C23oLwD5EI4lfx54AdzLQE3F+Bp4CPz8d4Cmk7UVnHBcCuJ3v5DvV4Ff3yJ/WtMIHAT2KV9NYfRlX6jqBEhbxNZzQs4h7po4Lgdh/Ap8An6F148Dh9qrTerES6OXVQ147GGt0bRsHS1IXRxqNtdaS0RHUq3QUxJ238PaaUrBNZprjb+QIc/WdGxqCF2wNPNrDrQxftSAiqbYM5rVexJta12IuwFlaVtoEU3KLrhx0PkpmcNiB2kYHKY7o0J6orUgmWMPM25OxcToSz3hyp8P+2m+8vtaEFfbsQho5hLoL4qwWRuboksqkA/JmGu2wqWL4vRSHNTrkm4lKDiQXKVbxJ+quPOfDT2xmReCRVYlgtG7d/W+xbI3/Kw5ZAajYMMMtLWxLBrzdLdf5f5iW+iBZZ/4G2NCODfzsrrwAAAAAElFTkSuQmCC"/>
+                </a>
+                <a href="#">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAApZJREFUWEetV1GW5CAILE62PSeb5GTZPZn7DLYCAtqZyXv90YmRoqgCQ1hcBKA4a/r9aIF8J1ljH9X/v3cRQMVJwAXko2RAO1nKZZ+ud1P20XeGZIw5Xo4gf9egWWjAAOqrXwDqb1xmI/67SVW8z9Efta2Mhu67BwHfnpA3dcrFdcU0sfWFgr92X1vhLUCPnaDteQLoLNVHNRWdDeFAwfcUMHHQDhlBAgrQ2196LeGgUktmpGqiusLXa96l+AfgTwtidXmiTAxNyqgUdoYeyLYCqZkrbbQolzHLBkNc07lk+6JhGfge/DmgjxgiTCXQbqULKLJsJwGHXOPaPmJoA9wXl0r2M3oBxdcQl3b0ojYNJtvngKI+ft+3szEvv2FUuUyEUX1It42lkBqg/pbVjJ2bXh+agoyskoYblI9MAhdwl8zJ5F65KpkcHdHITJU0SsbLZoY0tAZouJI3kEy4jTE6e9AJKrWzJ5dqAffKfofKSaW5zB+u977rPjRIujOMZD6jpDKG7lbJGJCc9jI/J/BZTwccOCnleGS5XGlIMhRpSIXXG+anjhdAV2Woj7xd2899yGQfk6FETQVXqQe9eL0StT/tZclSQzWFaCJJCpzQAJmCildWJWPbM0M7aLxTk7q33xjXLosApfdbybqYuDHGJ7iYIRFmbfu46zxsjMMoY4MRJATkcqOdZffroyPoVatZJjW07C5e73EAfewy0294FPCJMXJ73AUUIHaZGa763ZXL5k4dySWQ9gcM3TtsnRjrEbPaVVyBApxhZW5tTvtc1G3APupD6jhqPwLFqK8x6lfJ9NVqKM6H0Q7EDSfGTcM9Uz+OmsZZP2xc9G+o3OSxrRZSS7Y17m5D0ABaJ7J57ok9sajAf8TjKz06v19xAAAAAElFTkSuQmCC"/>
+                </a>
+                <a href="#">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAArxJREFUWEe1WAmShCAM7Lxs9WXqy3RexlbkkKMDuIdVUzXrQGg6nSasQB8B4O5vE48f/IMpw9gaUz8vAVVxZ5DNjAkwPKC3jwDiXpD6Yg8JUJsI6808+kTMJEMxWRMrVBHpAp42ypzFaB4nfG9TZq3d2WX7kyX8MVVU1H2qpwS0Q/AFhwXABeAjwE4KOf6esqTRM4UmKDsA/RTlTYGW+HYBNmYKYe4K3CD12QDo3wo4B9RISCecAI4IaiSysNgCwZn8bJxiGp+V/SnAEujloCiplbWOS0xjfwWWugxpqpTO+FyAHIB7qG0XWwA5H2fqyPwpQ42nKSseVmU7XAEoKqlgq1oybcKqr2pdCsbyoUWAs6mIB4EGOwS4sjEVoL7qBDgcKZoCkLVjH9pKga+QJGqKg6rbVxdxECbqWJZaNdt/nFkCrC6Uew23AnRDjhrS3UdwGUljt+0mzE9v/CfOYQzVVUbqwG6eqKjb1JhHFj06UruWkzH2lQli7iG8wkJ8ljKltPKVkVcT4dPM3i9DuqoBNSAyX/WjBvnoaMTBXAUEErgWmYbisgpEP2rvWnHBiPuiHgw7INCiSWZRj6caCoO0hdjmm/+Z1gArBFcvpiXqyFJRcZPc0Kqk7pzTE9LdS1lslXYH2V5ffUpY5tk1Plzb7OqcUk8WBzwXekSs+U/Uq0JM06BIQT3ps0s6C3v3jZeDrMWFaaD6fsoAPfm1Wcv7owwr95IwILQrHeWR6b6nfvrOBeJiZTX+0xd1wWnZaRLxNhkYGKM3RcHS5t50x/t2QfvwzkWF+FD3FpffEHLDDO2sfMLlkF1xCuQWu/X7SkOV/qkAixQb/zZpxeFtZpz0kahnTlV+dxvO5OAooJ5PWGL83bn7rJgADa1luGOrj5vfno6kGspDj7NudLczE8km/0RDbdwWjWXQ9chvCscjOZZ3J0MAAAAASUVORK5CYII="/>
+                </a>
+            </div>
+
+            <div class="footer__links">
+                <a href="#">About us</a>
+                <a href="#">Contact</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+
+            <div class="newsletter-form">
+                <p class="heading"> Subscribe to Our Newsletter</p>
+                <form class="form">
+                    <input required="" placeholder="Enter your email address" name="email" id="email" type="email">
+                    <input value="Subscribe" type="submit">
+                </form>
+            </div>
+        </div>
+
+        <div class="footer__copy">
+            <p>© 2021 AluraGeek. All rights reserved</p>
+        </div>
+
+    </footer>
+
+    <script type="module" src="../controllers/product.controler.js"></script>
+</body>
+</html>

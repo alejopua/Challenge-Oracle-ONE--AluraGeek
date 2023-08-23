@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styles -->
+    <link rel="stylesheet" href="../assets/css/base/base.css">
+    <link rel="stylesheet" href="../assets/css/createProduct.css">
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=REM:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Createproduct</title>
+</head>
+<body>
+    <header class="header">
+        <a href="../screens/index.html">
+            <div class="header__logo">
+                <img src="../assets/img/Logo.png" alt="Logo de la empresa">
+            </div>
+        </a>
+        <div class="header__content-info">
+            Menu Manager
+        </div>
+    </header>
+    <main class="main">
+        <section class="main__create-product">
+            <p class="--title">Create Product</p>
+            <form class="main__create-product--form" data-form>
+                <div class="--form__input">
+                    <input type="text" name="image" id="image" placeholder="URL of image" data-image required>
+                </div>
+                <div class="--form__input">
+                    <input type="text" name="name" id="name" placeholder="Enter name of product" data-title required>
+                </div>
+                <div class="--form__input">
+                    <input type="number" inputmode="numeric" name="price" id="price" placeholder="Price" data-price required>
+                </div>
+                <button type="click" class="submit" data-submit>
+                Add Product
+                </button>
+            </form>
+        </section>
+        <section class="main__delete-product">
+            <p class="--title">Delete Product</p>
+            <div class="tHead">
+                    <p class="table__column--1">Nombre</p>
+                    <p class="table__column--2">Precio</p>
+                    <p class="table__column--3">*</p>
+            </div>
+            <div class="--content_tbody">
+                <table class="table">
+                    <tbody data-table></tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="../controllers/adminProducts.js"></script>
+    <script type="module" src="../controllers/createProduct.js"></script>
+</body>
+</html>
