@@ -43,7 +43,7 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    gap: 20px 25px;
+    gap: 20px 0;
     width: 100%;
     height: -webkit-fill-available;
     padding: 20px;
