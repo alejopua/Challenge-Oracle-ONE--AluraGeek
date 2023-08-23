@@ -86,4 +86,12 @@ svg:hover {
     bottom: 0;
 }
 
+@media screen and (max-width: 360px) {
+    .card {
+        width: 127px;
+        height: 200px;
+    }
+
+}
+
 

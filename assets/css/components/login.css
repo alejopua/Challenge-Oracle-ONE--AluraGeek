@@ -1,3 +1,9 @@
+.btnLogin {
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+}
+
 button {
     --primary-color: #297ae4;
     --secondary-color: #fff;
@@ -5,16 +11,18 @@ button {
     --arrow-width: 10px;
     --arrow-stroke: 2px;
     font-family: var(--font-family-second);
+    font-weight: bold;
+    width: 126px;
     height: 42px;
     border-radius: 5px;
     color: var(--secondary-color);
-    padding: 1em 1.8em;
+    padding: 1em 1.5em;
     background: var(--primary-color);
-    display: flex;
     transition: 0.2s background;
+    display: flex;
     align-items: center;
-    gap: 0.6em;
-    font-weight: bold;
+    justify-content: center;
+    gap: 0.2rem;
 }
 
 button .arrow-wrapper {
@@ -56,4 +64,32 @@ button:hover .arrow {
 
 button:hover .arrow:before {
     right: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .btnLogin {
+        justify-content: center;
+    }
+
+    button .arrow-wrapper {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .btnLogin {
+        order: 2;
+        width: auto;
+    }
+
+    button {
+        width: 118px;
+        height: 30px;
+        padding: 1em 1em;
+        font-size: 13px;
+    }
+
+    button .arrow-wrapper {
+        display: none;
+    }
 }

@@ -1,7 +1,18 @@
+.search-bar {
+    display: flex;
+    box-sizing: border-box;
+    margin: 0 77px;
+    width: -webkit-fill-available;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
 .input {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     height: 15px;
-    padding: 12px;
+    padding: 1rem;
     border-radius: 12px;
     border: 1.5px solid lightgrey;
     outline: none;
@@ -10,6 +21,7 @@
     font-family: var(--font-family-first); /* Estilo de la fuente */
     font-size: 16px; /* Tamaño de la fuente */
     font-weight: 400; /* Grosor de la fuente */
+    box-sizing: border-box;
 }
 
 .input:hover {
@@ -23,4 +35,11 @@
 
 .input:focus {
     border: 2px solid grey;
+}
+
+@media screen and (max-width: 360px) {
+    .search-bar {
+        order: 3;
+        margin: 0;
+    }
 }

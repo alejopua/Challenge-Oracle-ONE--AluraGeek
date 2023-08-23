@@ -9,7 +9,6 @@
     margin: 0px 20px 20px 20px;
 }
 
-
 .s-wrap {
     box-sizing: border-box;
     width: -webkit-fill-available;
@@ -135,6 +134,7 @@
 /* button */
 
 .slider__button {
+    width: auto;
     font-size: 20px;
     position: absolute;
     z-index: 2;
